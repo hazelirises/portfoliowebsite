@@ -1,0 +1,59 @@
+body {
+  width: 100vw; height: 100vh; position: relative;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: "#EED5C2";
+  color: var(--text);
+  overflow: hidden;
+  transition: background-color .25s ease, color .25s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.home {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background: #EED5C2;
+  color: #000000;
+  transition: background-color .25s ease, color .25s ease;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5{
+  position: fixed;
+  height: 20%;
+  bottom: -0px;
+  z-index: -1;
+  width: 100%;
+  pointer-events: none;
+}
+
+.bg2 {
+  height: 40%;
+  z-index: -2;
+}
+
+.bg3 {
+  height: 60%;
+  z-index: -3;
+}
+
+.bg4 {
+  height: 80%;
+  z-index: -4;
+}
+
+.buttons {
+  position: fixed;
+  top: 90%;
+  display: flex;
+  gap: 20px;
+}
