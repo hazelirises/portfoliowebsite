@@ -32,7 +32,7 @@ function App() {
         className = "bg4"
         fill = "#EDA4BD"
         
-        options = {{height: 15, amplitude: 30, speed: 0.26, points: 7}}
+        options = {{height: 15, amplitude: 30, speed: 0.26, points: 8}}
       />
       
       <div>
