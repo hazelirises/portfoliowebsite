@@ -2,7 +2,7 @@ body {
   width: 100vw; height: 100vh; position: relative;
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background: "#EED5C2";
+  background: #EED5C2;
   color: var(--text);
   overflow: hidden;
   transition: background-color .25s ease, color .25s ease;
@@ -51,6 +51,7 @@ body {
 }
 
 .buttons {
+  z-index: 6;
   position: fixed;
   top: 90%;
   display: flex;
