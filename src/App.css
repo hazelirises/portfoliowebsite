@@ -30,24 +30,24 @@ body {
   position: fixed;
   height: 20%;
   bottom: -0px;
-  z-index: -1;
+  z-index: 4;
   width: 100%;
   pointer-events: none;
 }
 
 .bg2 {
   height: 40%;
-  z-index: -2;
+  z-index: 3;
 }
 
 .bg3 {
   height: 60%;
-  z-index: -3;
+  z-index: 2;
 }
 
 .bg4 {
   height: 80%;
-  z-index: -4;
+  z-index: 1;
 }
 
 .buttons {
@@ -55,4 +55,5 @@ body {
   top: 90%;
   display: flex;
   gap: 20px;
+  z-index: 10;
 }
